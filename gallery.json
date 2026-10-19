@@ -1,0 +1,226 @@
+[
+  {
+    "id": "dance",
+    "title": "DanceGRPO · Street-corner hesitation",
+    "prompt": "The camera slowly pushes in on a young woman standing at a street corner under the dim yellow glow of a streetlight, captured in a medium close-up. Side backlighting outlines her slender silhouette. Her hand unconsciously tightens around the backpack strap, knuckles turning slightly white, while a faint, forced smile tugs at her lips—never reaching her eyes. Her gaze drifts away from the front, settling on a puddle on the ground, where neon signs flicker and reflect like the instability of her emotions. She slightly turns her head, her lips twitching as if about to speak, but only a soft cough escapes. She lowers her head, her long hair falling to veil half her face. A breeze lifts her strands, and she instinctively reaches up to brush them aside, her fingers pausing in midair before dropping weakly. In the background, blurred traffic and pedestrians move past, their noise isolated beyond the frame, leaving her alone in the shifting light, trembling slightly, as if the entire world has gone silent except for the clear, pounding rhythm of her heartbeat in her ears.",
+    "videos": [
+      {
+        "src": "assets/dance-1.mp4",
+        "poster": "assets/dance-1.jpg",
+        "label": "Baseline",
+        "ours": false,
+        "key": "Baseline"
+      },
+      {
+        "src": "assets/dance-3.mp4",
+        "poster": "assets/dance-3.jpg",
+        "label": "Reflect (without RewardMemory)",
+        "ours": false,
+        "key": "EmoReward_without_RewardMemory"
+      },
+      {
+        "src": "assets/dance-2.mp4",
+        "poster": "assets/dance-2.jpg",
+        "label": "EmoReward",
+        "ours": true,
+        "key": "EmoReward"
+      }
+    ]
+  },
+  {
+    "id": "flow",
+    "title": "FlowGRPO · Twilight on the stone steps",
+    "prompt": "The camera slowly pushes in on a young woman kneeling on ancient bluish stone steps, her back turned to the deepening twilight sky, hands folded gently on her knees, fingertips trembling faintly. Her face is bathed in warm gold by the slanting rays of the setting sun, her eyelashes lowered, her pupils reflecting the flickering oil lamp at the distant temple eaves—a silent mirror to some unspoken obsession. Her lips are slightly pursed, the line of her mouth taut, as if silently praying or suppressing a sigh that threatens to break free. She tilts her head upward, gazing into the night sky, a single tear slipping down her cheek, pausing at her chin, glimmering in the dim light. A breeze stirs her hair, her sleeve lifts slightly, her arm quivers faintly, as though awaiting a response that will never come. Behind her, a quiet courtyard lies still, wild grasses growing beside the stone steps, while in the distance, a bell tolls gently, echoing through the empty dusk. The entire scene is enveloped in a near-sacred sense of solitude.",
+    "videos": [
+      {
+        "src": "assets/flow-1.mp4",
+        "poster": "assets/flow-1.jpg",
+        "label": "Baseline",
+        "ours": false,
+        "key": "Baseline"
+      },
+      {
+        "src": "assets/flow-3.mp4",
+        "poster": "assets/flow-3.jpg",
+        "label": "Reflect (without RewardMemory)",
+        "ours": false,
+        "key": "EmoReward_without_RewardMemory"
+      },
+      {
+        "src": "assets/flow-2.mp4",
+        "poster": "assets/flow-2.jpg",
+        "label": "EmoReward",
+        "ours": true,
+        "key": "EmoReward"
+      }
+    ]
+  },
+  {
+    "id": "sage",
+    "title": "SAGE-GRPO · Composure under the spotlight",
+    "prompt": "The camera slowly pushes in, revealing a middle-aged woman standing at the center of the stage, bathed in a spotlight that cascades from the upper side, softly outlining her silhouette with quiet strength. She tilts her head slightly upward, a subtle smile forming on her lips—a smile long held within, unassuming yet powerful enough to pierce the silence. Her gaze sweeps across the audience, her eyes glowing with a gentle warmth, like melting snow in winter, reflecting countless looks of reverence. Her fingers gently trace the emblem on her chest, her fingertips trembling slightly, as if touching a memory sealed by time. Slowly, she raises her hand and grasps the microphone, her lips parting slightly as her voice emerges—low, clear, each word like amber seeping from the depths of her soul. Her eyes never leave the audience, a look of calm acceptance and quiet response, as if saying: every step I’ve taken is worth being seen. Behind her, the applause blurs into soft waves, the melody gentle and hushed, while her face, stretched by light and shadow, resembles a still oil painting, frozen in her moment of radiant glory.",
+    "videos": [
+      {
+        "src": "assets/sage-1.mp4",
+        "poster": "assets/sage-1.jpg",
+        "label": "Baseline",
+        "ours": false,
+        "key": "Baseline"
+      },
+      {
+        "src": "assets/sage-3.mp4",
+        "poster": "assets/sage-3.jpg",
+        "label": "Reflect (without RewardMemory)",
+        "ours": false,
+        "key": "EmoReward_without_RewardMemory"
+      },
+      {
+        "src": "assets/sage-2.mp4",
+        "poster": "assets/sage-2.jpg",
+        "label": "EmoReward",
+        "ours": true,
+        "key": "EmoReward"
+      }
+    ]
+  },
+  {
+    "id": "backstage",
+    "title": "HunyuanVideo 1.5 · Backstage at dusk",
+    "prompt": null,
+    "videos": [
+      {
+        "src": "assets/backstage-1.mp4",
+        "poster": "assets/backstage-1.jpg",
+        "label": "GT (pretrained, no RL)",
+        "ours": false,
+        "key": "GT"
+      },
+      {
+        "src": "assets/backstage-2.mp4",
+        "poster": "assets/backstage-2.jpg",
+        "label": "EmoReward",
+        "ours": true,
+        "key": "EmoReward"
+      }
+    ]
+  },
+  {
+    "id": "policies",
+    "title": "Reward-policy comparison",
+    "prompt": "The camera slowly pushes in, revealing a middle-aged woman standing at the center of the stage, bathed in a spotlight that cascades from the upper side, softly outlining her silhouette with quiet strength. She tilts her head slightly upward, a subtle smile forming on her lips—a smile long held within, unassuming yet powerful enough to pierce the silence. Her gaze sweeps across the audience, her eyes glowing with a gentle warmth, like melting snow in winter, reflecting countless looks of reverence. Her fingers gently trace the emblem on her chest, her fingertips trembling slightly, as if touching a memory sealed by time. Slowly, she raises her hand and grasps the microphone, her lips parting slightly as her voice emerges—low, clear, each word like amber seeping from the depths of her soul. Her eyes never leave the audience, a look of calm acceptance and quiet response, as if saying: every step I’ve taken is worth being seen. Behind her, the applause blurs into soft waves, the melody gentle and hushed, while her face, stretched by light and shadow, resembles a still oil painting, frozen in her moment of radiant glory.",
+    "videos": [
+      {
+        "src": "assets/policies-4.mp4",
+        "poster": "assets/policies-4.jpg",
+        "label": "GT (pretrained, no RL)",
+        "ours": false,
+        "key": "GT"
+      },
+      {
+        "src": "assets/policies-8.mp4",
+        "poster": "assets/policies-8.jpg",
+        "label": "VideoAlign only",
+        "ours": false,
+        "key": "VideoAlign"
+      },
+      {
+        "src": "assets/policies-7.mp4",
+        "poster": "assets/policies-7.jpg",
+        "label": "Single provider: R1-Omni",
+        "ours": false,
+        "key": "Single_Provider_R1-Omni"
+      },
+      {
+        "src": "assets/policies-5.mp4",
+        "poster": "assets/policies-5.jpg",
+        "label": "Random routing",
+        "ours": false,
+        "key": "Random_Routing"
+      },
+      {
+        "src": "assets/policies-6.mp4",
+        "poster": "assets/policies-6.jpg",
+        "label": "Round-robin routing",
+        "ours": false,
+        "key": "Round_Robin_Routing"
+      },
+      {
+        "src": "assets/policies-3.mp4",
+        "poster": "assets/policies-3.jpg",
+        "label": "Fixed fusion",
+        "ours": false,
+        "key": "Fixed_Fusion"
+      },
+      {
+        "src": "assets/policies-2.mp4",
+        "poster": "assets/policies-2.jpg",
+        "label": "Reflect (without RewardMemory)",
+        "ours": false,
+        "key": "EmoReward_without_RewardMemory"
+      },
+      {
+        "src": "assets/policies-1.mp4",
+        "poster": "assets/policies-1.jpg",
+        "label": "EmoReward",
+        "ours": true,
+        "key": "EmoReward"
+      }
+    ]
+  },
+  {
+    "id": "providers",
+    "title": "Provider-pool ablation",
+    "prompt": null,
+    "videos": [
+      {
+        "src": "assets/providers-4.mp4",
+        "poster": "assets/providers-4.jpg",
+        "label": "VideoAlign only",
+        "ours": false,
+        "key": "VideoAlign"
+      },
+      {
+        "src": "assets/providers-3.mp4",
+        "poster": "assets/providers-3.jpg",
+        "label": "Semantic emotion",
+        "ours": false,
+        "key": "Semantic_Emotion"
+      },
+      {
+        "src": "assets/providers-2.mp4",
+        "poster": "assets/providers-2.jpg",
+        "label": "Motion naturalness",
+        "ours": false,
+        "key": "Motion_Naturalness"
+      },
+      {
+        "src": "assets/providers-1.mp4",
+        "poster": "assets/providers-1.jpg",
+        "label": "Balanced pool",
+        "ours": true,
+        "key": "Balanced_Provider_Pool"
+      }
+    ]
+  },
+  {
+    "id": "memory",
+    "title": "RewardMemory ablation",
+    "prompt": "The camera slowly pushes in, revealing a middle-aged woman standing at the center of the stage, bathed in a spotlight that cascades from the upper side, softly outlining her silhouette with quiet strength. She tilts her head slightly upward, a subtle smile forming on her lips—a smile long held within, unassuming yet powerful enough to pierce the silence. Her gaze sweeps across the audience, her eyes glowing with a gentle warmth, like melting snow in winter, reflecting countless looks of reverence. Her fingers gently trace the emblem on her chest, her fingertips trembling slightly, as if touching a memory sealed by time. Slowly, she raises her hand and grasps the microphone, her lips parting slightly as her voice emerges—low, clear, each word like amber seeping from the depths of her soul. Her eyes never leave the audience, a look of calm acceptance and quiet response, as if saying: every step I’ve taken is worth being seen. Behind her, the applause blurs into soft waves, the melody gentle and hushed, while her face, stretched by light and shadow, resembles a still oil painting, frozen in her moment of radiant glory.",
+    "videos": [
+      {
+        "src": "assets/memory-2.mp4",
+        "poster": "assets/memory-2.jpg",
+        "label": "Reflect (without RewardMemory)",
+        "ours": false,
+        "key": "EmoReward_without_RewardMemory"
+      },
+      {
+        "src": "assets/memory-1.mp4",
+        "poster": "assets/memory-1.jpg",
+        "label": "EmoReward",
+        "ours": true,
+        "key": "EmoReward"
+      }
+    ]
+  }
+]
