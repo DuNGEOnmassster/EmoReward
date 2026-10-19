@@ -16,3 +16,10 @@
 .actions .unavailable{background:#eeedf2;border:1px solid #e1dfe8;color:#93909f;box-shadow:none;cursor:default;user-select:none;gap:8px}
 .actions .unavailable small{font-size:11px;font-weight:500;color:#aaa6b3}
 .actions .unavailable:hover{transform:none;box-shadow:none}
+
+/* Original paper algorithm panels, stacked in paper order. */
+.algorithm-grid{grid-template-columns:minmax(0,1fr);gap:30px}
+.algorithm-original{min-width:0}
+.algorithm-original .figure-frame{padding:16px}
+.algorithm-original .figure-frame img{border-radius:0}
+@media(max-width:600px){.algorithm-original .figure-frame{padding:7px}.algorithm-grid{gap:24px}}
